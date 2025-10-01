@@ -100,7 +100,7 @@ ui <-
           tabName = "proof_table",
           h1("Proof of concept - Table"),
           p(
-            "Here you can see the results of RIVAGE's island vulnerability framework applied to six archipelagos around the world. You can filter the results by archipelago or taxonomic group using the side bar. You can also change the weighting of different components in the vulnerability calculation, and see their effect on the results. You can also click any line on the result tables to display the detailed data for the exposure, sensitivity and adaptive capacity of each species in each island."
+            "Here you can see the results of RIVAGE's island vulnerability framework applied to six archipelagos around the world. You can filter the results by archipelago or taxonomic group using the side bar. You can also click any line on the result tables to display the detailed data for the exposure, sensitivity and adaptive capacity of each species in each island."
           ),
           fluidRow(
             DT::dataTableOutput("sel_df")
@@ -110,7 +110,7 @@ ui <-
           tabName = "proof_graph",
           h1("Proof of concept - Graph"),
           p(
-            "Here you can see the results of RIVAGE's island vulnerability framework applied to six archipelagos around the world. You can filter the results by archipelago or taxonomic group using the side bar. You can also change the weighting of different components in the vulnerability calculation, and see their effect on the results. You can also click any line on the result tables to display the detailed data for the exposure, sensitivity and adaptive capacity of each species in each island."
+            "Here you can see the results of RIVAGE's island vulnerability framework applied to six archipelagos around the world. You can filter the results by archipelago or taxonomic group using the side bar. You can also click any line on the result tables to display the detailed data for the exposure, sensitivity and adaptive capacity of each species in each island."
           ),
           fluidRow(
             plotOutput("graph_all", 
@@ -153,7 +153,7 @@ ui <-
           tabName = "proof_map",
           h1("Proof of concept - Maps"),
           p(
-            "Here you can see the results of RIVAGE's island vulnerability framework applied to six archipelagos around the world. You can filter the results by archipelago or taxonomic group using the side bar. You can also change the weighting of different components in the vulnerability calculation, and see their effect on the results. You can also click any line on the result tables to display the detailed data for the exposure, sensitivity and adaptive capacity of each species in each island."
+            "Here you can see the results of RIVAGE's island vulnerability framework applied to six archipelagos around the world. You can filter the results by archipelago or taxonomic group using the side bar. You can also click any line on the result tables to display the detailed data for the exposure, sensitivity and adaptive capacity of each species in each island."
           ),
           leaflet::leafletOutput("costsmap", height = "500px")
         ),
